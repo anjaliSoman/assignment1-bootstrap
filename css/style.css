@@ -92,6 +92,7 @@ Date : 07-02-2023 */
     text-align: center;
 }
 .para {
+    text-align: center;
     font-size: 25px;
     line-height: 35px;
 }
@@ -130,4 +131,114 @@ Date : 07-02-2023 */
 }
 footer {
     text-align: center;
+}
+@media screen and (max-width: 576px) {
+    .banner {
+        background-image: none;
+        background-color: #c3c0c0;
+    }
+    .heading-1 {
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .m-logo {
+        margin: 250px 10% 0 0;
+    }
+    .m-head1 {
+        text-align: right;
+        width: 300px;
+        margin: 30px 10% 0 0;
+    }
+    .m-head2 {
+        text-align: right;
+        width: 300px;
+        margin: 5px 10% 0 0;
+    }
+    .logo img {
+        width: 250px;
+        height: 100px;
+    }
+    .description {
+        position: static;
+    }
+    .description-img {
+        width: 100%;
+    }
+    .description-img img {
+        margin: 10px auto;
+        width: 100%;
+    }
+    .description-specialities {
+        width: 95%;
+        height: 55%;
+        padding: 3%;
+        position: static;
+        margin: 5px auto;
+    }
+    .description-specialities > h2 {
+        padding: 10px;
+        margin: 0 10px;
+        font-size: 13px;
+    }
+    .description-text {
+        font-size: 17px;
+        margin: 0;
+        line-height: 27px;
+    }
+    .description-text p {
+        padding: 0;
+        margin: 0;
+    }
+    .module {
+        height: 600px;
+    }
+    .courses {
+        gap: 10px;
+        font-size: 12px;
+    }
+    .courses > div {
+        width: 45%;
+        padding: 5px 10px;
+    }
+    .para {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .speciality-1 {
+        width: 100%;
+        height: 250px;
+    }
+    .speciality-2 {
+        width: 100%;
+        height: 250px;
+    }
+    .bg {
+        height: 150px;
+        font-size: 15px;
+    }
+    .join-us h1 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .j-button {
+        width: 90%;
+        padding: 5px;
+        margin: 0 auto;
+    }
+    .j-button .address {
+        width: 95%;
+    }
+    .sub {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .office div {
+        padding-bottom: 15px;
+    }
+    .office p {
+        font-size: 15px;
+    }
+    footer {
+        margin: 3%;
+    }
 }
