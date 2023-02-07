@@ -1,0 +1,133 @@
+/* Author : Anjali Soman
+Date : 07-02-2023 */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.banner {
+    background-image: url("../images/academy-banner.jpg");
+    background-size: cover;
+    height: 800px;
+}
+.logo {
+    flex-direction: column;
+    align-items: flex-end;
+}
+.heading-1 {
+    font-weight: 900;
+    font-size: 65px;
+    color: #1e2531;
+}
+.m-logo {
+    margin: 30% 15% 0 0;
+}
+.m-head1 {
+    margin: 4% 15% 0 0;
+}
+.m-head2 {
+    margin: 0 15% 0 0;
+}
+.logo img {
+    width: 280px;
+    height: 100px;
+}
+.description {
+    background-color: #ffffff;
+    position: relative;
+}
+.description-img img {
+    margin: 6% 0 5% 9%;
+    width: 75%;
+}
+.description-specialities {
+    background-color: #1e2531;
+    color: #59c8cc;
+    margin: 13% 8% 0 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 49%;
+    height: 48%;
+    padding: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.description-specialities > h2 {
+    padding: 2% 1%;
+}
+.description-specialities h2::before {
+    content: "{ ";
+    color: #f25ca7;
+}
+.description-specialities h2::after {
+    content: " }";
+    color: #f25ca7;
+}
+.description-text {
+    font-size: 27px;
+    text-align: center;
+    line-height: 45px;
+}
+.module {
+    background-image: url("../images/modulebg.jpg");
+    background-size: cover;
+    height: 800px;
+}
+.courses {
+    align-self: center;
+    gap: 30px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.courses > div {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    width: 20%;
+    border-radius: 15px;
+}
+.courses p {
+    text-align: center;
+}
+.para {
+    font-size: 25px;
+    line-height: 35px;
+}
+.speciality-1 {
+    background-image: url("../images/testsbg.jpg");
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+}
+.speciality-2 {
+    background-image: url("../images/intrvwbg.jpg");
+    width: 50%;
+    height: 500px;
+    background-size: cover;
+}
+.bg {
+    align-self: center;
+    background-color: rgba(6, 8, 11, 0.7);
+    color: #ffffff;
+    width: 90%;
+    height: 400px;
+    font-size: 25px;
+}
+.p {
+    align-self: center;
+    text-align: center;
+}
+.join-us > div {
+    text-align: center;
+}
+.join-us h1 {
+    color: #181e22;
+}
+.sub {
+    justify-content: space-around;
+}
+footer {
+    text-align: center;
+}
