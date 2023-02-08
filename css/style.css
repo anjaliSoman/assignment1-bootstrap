@@ -12,51 +12,24 @@ Date : 07-02-2023 */
     background-size: cover;
     height: 800px;
 }
-.logo {
-    flex-direction: column;
-    align-items: flex-end;
-}
 .heading-1 {
     font-weight: 900;
     font-size: 65px;
     color: #1e2531;
 }
-.m-logo {
-    margin: 30% 15% 0 0;
-}
-.m-head1 {
-    margin: 4% 15% 0 0;
-}
-.m-head2 {
-    margin: 0 15% 0 0;
-}
 .logo img {
-    width: 280px;
+    width: 300px;
     height: 100px;
-}
-.description {
-    background-color: #ffffff;
-    position: relative;
-}
-.description-img img {
-    margin: 6% 0 5% 9%;
-    width: 75%;
 }
 .description-specialities {
     background-color: #1e2531;
     color: #59c8cc;
-    margin: 13% 8% 0 0;
+    margin: 8% 8% 0 0;
     position: absolute;
     top: 0;
     right: 0;
-    width: 49%;
-    height: 48%;
-    padding: 30px;
-    flex-direction: column;
-    align-items: flex-start;
-}
-.description-specialities > h2 {
-    padding: 2% 1%;
+    width: 60%;
+    height: 54%;
 }
 .description-specialities h2::before {
     content: "{ ";
@@ -66,35 +39,16 @@ Date : 07-02-2023 */
     content: " }";
     color: #f25ca7;
 }
-.description-text {
-    font-size: 27px;
-    text-align: center;
-    line-height: 45px;
-}
 .module {
     background-image: url("../images/modulebg.jpg");
     background-size: cover;
     height: 800px;
 }
 .courses {
-    align-self: center;
-    gap: 30px;
-    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .courses > div {
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #ffffff;
     width: 20%;
-    border-radius: 15px;
-}
-.courses p {
-    text-align: center;
-}
-.para {
-    text-align: center;
-    font-size: 25px;
-    line-height: 35px;
 }
 .speciality-1 {
     background-image: url("../images/testsbg.jpg");
@@ -108,31 +62,13 @@ Date : 07-02-2023 */
     height: 500px;
     background-size: cover;
 }
-.bg {
-    align-self: center;
-    background-color: rgba(6, 8, 11, 0.7);
-    color: #ffffff;
-    width: 90%;
-    height: 400px;
-    font-size: 25px;
-}
-.p {
-    align-self: center;
-    text-align: center;
-}
-.join-us > div {
-    text-align: center;
-}
 .join-us h1 {
     color: #181e22;
 }
-.sub {
-    justify-content: space-around;
-}
-footer {
-    text-align: center;
-}
 @media screen and (max-width: 576px) {
+    .extra {
+        display: none;
+    }
     .banner {
         background-image: none;
         background-color: #c3c0c0;
@@ -141,18 +77,9 @@ footer {
         font-weight: 700;
         font-size: 30px;
     }
+
     .m-logo {
-        margin: 250px 10% 0 0;
-    }
-    .m-head1 {
-        text-align: right;
-        width: 300px;
-        margin: 30px 10% 0 0;
-    }
-    .m-head2 {
-        text-align: right;
-        width: 300px;
-        margin: 5px 10% 0 0;
+        margin: 0;
     }
     .logo img {
         width: 250px;
@@ -160,16 +87,17 @@ footer {
     }
     .description {
         position: static;
-    }
-    .description-img {
+        padding: 0;
+        margin: 0;
         width: 100%;
     }
     .description-img img {
-        margin: 10px auto;
+        margin: 0;
+        padding: 0;
         width: 100%;
     }
     .description-specialities {
-        width: 95%;
+        width: 97%;
         height: 55%;
         padding: 3%;
         position: static;
@@ -181,9 +109,9 @@ footer {
         font-size: 13px;
     }
     .description-text {
-        font-size: 17px;
-        margin: 0;
-        line-height: 27px;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
     }
     .description-text p {
         padding: 0;
@@ -192,17 +120,8 @@ footer {
     .module {
         height: 600px;
     }
-    .courses {
-        gap: 10px;
-        font-size: 12px;
-    }
     .courses > div {
         width: 45%;
-        padding: 5px 10px;
-    }
-    .para {
-        font-size: 20px;
-        line-height: 25px;
     }
     .speciality-1 {
         width: 100%;
@@ -212,13 +131,8 @@ footer {
         width: 100%;
         height: 250px;
     }
-    .bg {
-        height: 150px;
-        font-size: 15px;
-    }
-    .join-us h1 {
-        font-size: 25px;
-        font-weight: 700;
+    .bg p {
+        font-size: 12px;
     }
     .j-button {
         width: 90%;
@@ -228,17 +142,10 @@ footer {
     .j-button .address {
         width: 95%;
     }
-    .sub {
-        width: 100%;
-        justify-content: space-between;
-    }
     .office div {
         padding-bottom: 15px;
     }
     .office p {
         font-size: 15px;
-    }
-    footer {
-        margin: 3%;
     }
 }
